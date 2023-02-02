@@ -1,0 +1,241 @@
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: rgb(176, 176, 196);
+}
+  /* .btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #1E90FF;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba (0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+
+  }
+  .btn:hover, .btn:focus {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); */
+  /* } */
+
+  /* h1 {
+    color: rgb(222, 222, 231);
+  } */
+
+nav {
+  background-color: rgb(47, 37, 94);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(173, 63, 63);
+  font-size: 25px;
+}
+
+
+footer {
+  background-color: rgb(47, 37, 94);
+  padding: 10px;
+  text-align: center;
+  color: beige;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#nab{
+  text-align: center;
+  width: 200px;
+  height:200px;
+  color: aquamarine;
+
+}
+.Image1{
+  text-align: center;
+}
+
+#va{
+  align-items: center;
+  width: 150px;
+  height:300px;
+
+}
+
+#nab{
+  align-items: center;
+  width: 150px;
+  height:300px;
+
+}
+.portfolio-heading{
+  text-align: center;
+}
+.left{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items:center;
+  margin-top: 10px;
+  text-align: left;
+}
+.content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#Experience{
+  text-align:left;
+  width: 200px;
+  height:200px;;
+}
+
+.note {
+  font-size: 80%;
+  color:rgb(10, 10, 10);
+  background-color: rgb(206, 117, 8);
+  box-shadow: 2px 2px 20px black;
+}
+.bio-text{
+    font-size: 80%;
+    color:rgb(10, 10, 10);
+    background-color: rgb(26, 132, 165);
+    box-shadow: 2px 2px 20px black;
+}
+
+.Exp-text{
+  font-size: 80%;
+  color:rgb(10, 10, 10);
+  background-color: rgb(127, 153, 35);
+  box-shadow: 2px 2px 20px black;
+}
+.port-text{
+  font-size: 80%;
+  color:rgb(10, 10, 10);
+  background-color:rgb(161, 51, 97);
+  box-shadow: 2px 2px 20px black;
+}
+
+#port{
+  margin-right: 10px;
+  width: 200px;
+  height:200px;;
+}
+
+#stack{
+  align-items: center;
+  width: 180px;
+  height:180px;
+  background-color: rgb(177, 136, 85);
+}
+
+ nav .mainMenu {
+    display: flex;
+    list-style: none;
+  }
+  nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: 0.2s ease;
+  }
+  nav .mainMenu li a:hover {
+    background: rgb(255, 94, 0);
+  }
+  nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+  nav .mainMenu .closeMenu,
+  .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+  .fa-facebook:hover {
+    color: rgb(0, 110, 255);
+  }
+  .fa-twitter:hover {
+    color: rgb(86, 154, 243);
+  }
+  .fa-instagram:hover {
+    color: rgb(255, 0, 191);
+  }
+  .fa-github:hover {
+    color: rgb(255, 123, 0);
+  }
+  nav .logo {
+    margin: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  @media (max-width: 800px) {
+    nav .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgb(176, 176, 196);
+      transition: top 1s ease 0s;
+      display: none;
+    }
+    nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    nav .openMenu {
+      display: block;
+    }
+    nav .mainMenu li a:hover {
+      background: none;
+      color: rgb(255, 123, 0);
+    }
+    .icons i {
+      display: inline-block;
+      padding: 12px; }
+    }
+    p {
+      border: 1px solid black;
+    }
+    
